@@ -6,6 +6,18 @@ Then: npm uninstall webpack-cli
 Then: npm install webpack-cli --save-devnpm install webpack-cli --save-dev
 
 GOT NPM RUN DEV TO RUN !!!!
+----------------------------------------------------------------------------------------
+npm run build throws:
+ERROR in glance
+Module not found: Error: Can't resolve 'eslint-loader' in '/home/brett/dev/WORK-ON-GLANCE/glance'
+
+ERROR in glance-external-ITKReader
+Module not found: Error: Can't resolve 'eslint-loader' in '/home/brett/dev/WORK-ON-GLANCE/glance'
+
+ERROR in glance-external-Workbox
+Module not found: Error: Can't resolve 'eslint-loader' in '/home/brett/dev/WORK-ON-GLANCE/glance'
+------------------------------------------------------------------------------------------
+- Alsono needed to install npm install eslint-plugin-jsx-a11y
 
 npm WARN ERESOLVE overriding peer dependency
 npm WARN While resolving: parallel-webpack@2.6.0
