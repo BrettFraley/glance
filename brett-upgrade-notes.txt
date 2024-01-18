@@ -1,0 +1,133 @@
+------------------------------------------------------------------------------------------------------
+npm WARN deprecated flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
+
+- NEEDS INVESTIGATION (unsure of steps/work involved to replace with lodash)
+
+-----------------------------------------------------------------------------------------------------------------
+npm WARN deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+
+- npm install @hapi/bourne@latest
+- RESULT: added 1 package, changed 1 package, and audited 2425 packages in 20s
+
+---------------------------------------------------------------------------------------------------------------
+npm WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+
+- npm install @hapi/topo@latest
+- RESULT - added 2 packages, changed 1 package, and audited 2424 packages in 20s
+
+------------------------------------------------------------------------------------
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+
+- NEEDS INVESTIGATION
+
+----------------------------------------------------------------------------
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+
+- NEEDS INVESTIGATION
+
+---------------------------------------------------------------------------------------
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+
+- NEEDS INVESTIGATION 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+
+- npm install formidable@v2
+- RESULT: added 3 packages, changed 2 packages, and audited 2422 packages in 42s
+
+----------------------------------------------------------------------------------------------------------
+npm WARN deprecated eslint-loader@4.0.2: This loader has been deprecated. Please use eslint-webpack-plugin
+
+- NEEDS WORK/INVESTIGATION
+- npm uninstall eslint-loader
+- RESULT: removed 5 packages, and audited 2422 packages in 17s
+
+- npm install eslint (peer dependency of eslint-webpack-plugin)
+- npm install eslint@7
+- REESULT:removed 3 packages, and audited 2419 packages in 25s
+
+- npm install eslint-webpack-plugin
+- RESULT: 
+
+node_modules/eslint
+npm ERR!   dev eslint@"^7.32.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint@"^8.0.0" from eslint-webpack-plugin@4.0.1
+npm ERR! node_modules/eslint-webpack-plugin
+npm ERR!   eslint-webpack-plugin@"*" from the root project
+
+------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+
+- npm install chokidar@3 -> NOTE: Latest or specific version 3 needs looked at
+- RESULT: changed 1 package, and audited 2427 packages in 41s
+
+------------------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+
+- NEEDS INVESTIGATION
+
+-------------------------------------------------------------------------
+npm WARN deprecated html-webpack-plugin@3.2.0: 3.x is no longer supported
+
+- NEEDS INVESTIGATION
+
+
+------------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+
+- npm uninstall babel-eslint
+- RESULT: added 1 package, changed 2 packages, and audited 2424 packages in 19s
+
+- npm install @babel/eslint-parser
+- RESULT: added 4 packages, and audited 2427 packages in 19s
+
+------------------------------------------------------------------------------
+(################⠂⠂) ⠼ reify:prop-types: timing reifyNode:node_modules/stackf
+
+- Unsure about the line
+
+--------------------------------------------------------------------------------
+npm WARN deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+
+- npm install @sideway/address
+- RESULT: added 1 package, changed 2 packages, and audited 2424 packages in 19s
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+- npm install uuid@7 NOTE: actual specific version 7 needs checked
+- RESULT: changed 1 package, and audited 2423 packages in 18s
+
+-------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+- NEEDS INVESTIGATION
+
+---------------------------------------------------------------------------------------------------------------
+npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+
+- NEEDS INVESTIGATION
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+npm WARN deprecated axios@0.19.2: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+
+- npm install axios@0.21.1
+RESULT: changed 1 package, and audited 2420 packages in 18s
+----------------------------------------------------------------
+npm WARN deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+
+- npm install joi
+RESULT: added 7 packages, and audited 2420 packages in 19s
+-----------------------------------------------------------------
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+
+- Upgraded svgo to @latest Version 2.3.1
+- RESULT: added 29 packages, removed 2 packages, changed 9 packages, and audited 2413 packages in 56s
+
+Down to:
+86 vulnerabilities (2 low, 58 moderate, 18 high, 8 critical)
